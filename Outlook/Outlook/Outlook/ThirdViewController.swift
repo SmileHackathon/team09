@@ -13,12 +13,17 @@ class ThirdViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        TestButton.alpha = 0
         TestButton.isHidden = true
-        DispatchQueue.main.asyncAfter(deadline: .now() + 8.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 16.0) {
+            UIView.animate(withDuration: 1.0, delay: 0.0, options: [.curveLinear], animations: {
+                
+                self.TestButton.alpha = 1.0
+             })
             self.TestButton.isHidden = false
+            
         }
-        let path = Bundle.main.path(forResource: "scan03", ofType: "mp4")!
+        let path = Bundle.main.path(forResource: "scan05", ofType: "mp4")!
         let player = AVPlayer(url: URL(fileURLWithPath: path))
        
         // AVPlayer用のLayerを生成

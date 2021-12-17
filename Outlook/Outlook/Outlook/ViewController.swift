@@ -24,7 +24,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         myImageView.alpha = 0.05
         self.view.addSubview(myImageView)
         */
-        
         UIView.animate(withDuration: 1.0, delay: 0.0 , options: [.autoreverse, .repeat] ,animations: {
            var transScale = CGAffineTransform()
            transScale = CGAffineTransform(scaleX: 1.05, y: 1.05)
@@ -112,9 +111,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 6.5){
-            let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "toSecondVC") as! SecondViewController
-            secondViewController.modalPresentationStyle = .fullScreen
-            self.present(secondViewController, animated: false, completion: nil)
+            let thirdViewController = self.storyboard?.instantiateViewController(withIdentifier: "toThirdVC") as! ThirdViewController
+            thirdViewController.modalPresentationStyle = .fullScreen
+            self.present(thirdViewController, animated: false, completion: nil)
             
         }
         //button1Action(sampleButton)

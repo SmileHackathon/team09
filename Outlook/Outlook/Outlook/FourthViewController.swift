@@ -16,9 +16,23 @@ class FourthViewController: UIViewController {
         playerLayer.zPosition = -1 // ボタン等よりも後ろに表示
         view.layer.insertSublayer(playerLayer, at: 0) // 動画をレイヤーとして追加
         player.play()
-        
-    }
-
+   
+        //タップで画面もとに戻れなかった
+//        let singleTapGesture = UITapGestureRecognizer(target: self, action: #selector(singleTap(_:)))
+//
+//            // シングルタップで反応するように設定します。
+//        singleTapGesture.numberOfTapsRequired = 1
+//
+//            // ビューにジェスチャーを設定します。
+//            view.addGestureRecognizer(singleTapGesture)
+//
+//
+//
+//    }
+//    @objc func singleTap(_ gesture: UITapGestureRecognizer) {
+//        // シングルタップされた時の処理を記述してください。
+//        self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
+//    }
     
 
     /*
@@ -34,4 +48,4 @@ class FourthViewController: UIViewController {
 
 }
 
-
+}

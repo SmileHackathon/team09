@@ -12,18 +12,17 @@
 		FA3CF626276C988400475867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CF625276C988400475867 /* ViewController.swift */; };
 		FA3CF629276C988400475867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF627276C988400475867 /* Main.storyboard */; };
 		FA3CF62B276C988E00475867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF62A276C988E00475867 /* Assets.xcassets */; };
-		FA3CF635276C9A4400475867 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CF634276C9A4400475867 /* SecondViewController.swift */; };
 		FA3CF637276C9A5100475867 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CF636276C9A5100475867 /* ThirdViewController.swift */; };
 		FA3CF639276C9A6400475867 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CF638276C9A6400475867 /* FourthViewController.swift */; };
 		FA3CF63B276C9B0600475867 /* REDWAVE3.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF63A276C9B0600475867 /* REDWAVE3.png */; };
 		FA3CF63D276C9B1000475867 /* REDWAVE2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF63C276C9B1000475867 /* REDWAVE2.png */; };
-		FA3CF63F276C9B1A00475867 /* scan02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF63E276C9B1800475867 /* scan02.mp4 */; };
 		FA3CF641276C9B2200475867 /* scan03.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF640276C9B2200475867 /* scan03.mp4 */; };
 		FA3CF643276C9B2E00475867 /* last.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF642276C9B2E00475867 /* last.mp4 */; };
 		FA3CF645276C9B6300475867 /* omitosu.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF644276C9B6300475867 /* omitosu.png */; };
 		FA3CF647276C9BB600475867 /* Flame_in.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF646276C9BB500475867 /* Flame_in.png */; };
 		FA3CF649276C9BBB00475867 /* Flame_out.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CF648276C9BBB00475867 /* Flame_out.png */; };
 		FA6EE6E3276C9DD20045B051 /* REDWAVE.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6EE6E2276C9DD20045B051 /* REDWAVE.png */; };
+		FA6EE6E7276CC2B20045B051 /* scan05.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA6EE6E6276CC2B20045B051 /* scan05.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,18 +32,17 @@
 		FA3CF625276C988400475867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA3CF628276C988400475867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA3CF62A276C988E00475867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA3CF634276C9A4400475867 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FA3CF636276C9A5100475867 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		FA3CF638276C9A6400475867 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		FA3CF63A276C9B0600475867 /* REDWAVE3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = REDWAVE3.png; sourceTree = "<group>"; };
 		FA3CF63C276C9B1000475867 /* REDWAVE2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = REDWAVE2.png; sourceTree = "<group>"; };
-		FA3CF63E276C9B1800475867 /* scan02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = scan02.mp4; sourceTree = "<group>"; };
 		FA3CF640276C9B2200475867 /* scan03.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = scan03.mp4; sourceTree = "<group>"; };
 		FA3CF642276C9B2E00475867 /* last.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = last.mp4; sourceTree = "<group>"; };
 		FA3CF644276C9B6300475867 /* omitosu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omitosu.png; sourceTree = "<group>"; };
 		FA3CF646276C9BB500475867 /* Flame_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flame_in.png; sourceTree = "<group>"; };
 		FA3CF648276C9BBB00475867 /* Flame_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flame_out.png; sourceTree = "<group>"; };
 		FA6EE6E2276C9DD20045B051 /* REDWAVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = REDWAVE.png; sourceTree = "<group>"; };
+		FA6EE6E6276CC2B20045B051 /* scan05.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = scan05.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,15 +78,14 @@
 				FA3CF621276C988400475867 /* AppDelegate.swift */,
 				FA3CF623276C988400475867 /* art.scnassets */,
 				FA3CF625276C988400475867 /* ViewController.swift */,
-				FA3CF634276C9A4400475867 /* SecondViewController.swift */,
 				FA3CF636276C9A5100475867 /* ThirdViewController.swift */,
 				FA3CF638276C9A6400475867 /* FourthViewController.swift */,
 				FA3CF627276C988400475867 /* Main.storyboard */,
 				FA3CF62A276C988E00475867 /* Assets.xcassets */,
 				FA3CF63A276C9B0600475867 /* REDWAVE3.png */,
 				FA3CF63C276C9B1000475867 /* REDWAVE2.png */,
-				FA3CF63E276C9B1800475867 /* scan02.mp4 */,
 				FA3CF640276C9B2200475867 /* scan03.mp4 */,
+				FA6EE6E6276CC2B20045B051 /* scan05.mp4 */,
 				FA3CF642276C9B2E00475867 /* last.mp4 */,
 				FA3CF644276C9B6300475867 /* omitosu.png */,
 				FA3CF646276C9BB500475867 /* Flame_in.png */,
@@ -157,13 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6EE6E3276C9DD20045B051 /* REDWAVE.png in Resources */,
+				FA6EE6E7276CC2B20045B051 /* scan05.mp4 in Resources */,
 				FA3CF641276C9B2200475867 /* scan03.mp4 in Resources */,
 				FA3CF63B276C9B0600475867 /* REDWAVE3.png in Resources */,
 				FA3CF645276C9B6300475867 /* omitosu.png in Resources */,
 				FA3CF649276C9BBB00475867 /* Flame_out.png in Resources */,
 				FA3CF624276C988400475867 /* art.scnassets in Resources */,
 				FA3CF643276C9B2E00475867 /* last.mp4 in Resources */,
-				FA3CF63F276C9B1A00475867 /* scan02.mp4 in Resources */,
 				FA3CF63D276C9B1000475867 /* REDWAVE2.png in Resources */,
 				FA3CF62B276C988E00475867 /* Assets.xcassets in Resources */,
 				FA3CF647276C9BB600475867 /* Flame_in.png in Resources */,
@@ -178,7 +175,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3CF635276C9A4400475867 /* SecondViewController.swift in Sources */,
 				FA3CF626276C988400475867 /* ViewController.swift in Sources */,
 				FA3CF637276C9A5100475867 /* ThirdViewController.swift in Sources */,
 				FA3CF622276C988400475867 /* AppDelegate.swift in Sources */,
