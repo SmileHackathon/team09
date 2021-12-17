@@ -1,8 +1,8 @@
-//
+
 //  AppDelegate.swift
-//  Outlook
+//  Teat4
 //
-//  Created by 外川雄也 on 2021/12/17.
+//  Created by 外川雄也 on 2021/12/15.
 //
 
 import UIKit
@@ -37,4 +37,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
