@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ohV-EM-wob">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="XTU-yG-dgB">
+            <objects>
+                <viewController id="ohV-EM-wob" customClass="ViewController" customModule="Outlook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xug-eA-NrM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mrc-p1-58c">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arscnView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flame_in.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pqy-TX-VIM">
+                                <rect key="frame" x="89" y="202" width="239" height="461"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flame_out.png" translatesAutoresizingMaskIntoConstraints="NO" id="G6W-FJ-mRL">
+                                <rect key="frame" x="57" y="169" width="301" height="526"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LHU-Wa-Tlo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="REDWAVE.png" translatesAutoresizingMaskIntoConstraints="NO" id="V9Y-gW-T0v">
+                                <rect key="frame" x="0.0" y="767" width="414" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ngC-7u-1V0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mrc-p1-58c" firstAttribute="trailing" secondItem="ngC-7u-1V0" secondAttribute="trailing" id="fDv-oH-ATk"/>
+                            <constraint firstItem="mrc-p1-58c" firstAttribute="leading" secondItem="ngC-7u-1V0" secondAttribute="leading" id="l2W-Ll-4U2"/>
+                            <constraint firstItem="mrc-p1-58c" firstAttribute="top" secondItem="Xug-eA-NrM" secondAttribute="top" id="oCn-cf-dRx"/>
+                            <constraint firstItem="mrc-p1-58c" firstAttribute="bottom" secondItem="ngC-7u-1V0" secondAttribute="bottom" id="sn8-6u-Vhu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="FadeOutView" destination="LHU-Wa-Tlo" id="ihL-po-7xa"/>
+                        <outlet property="FlameInView" destination="Pqy-TX-VIM" id="45y-YC-w2l"/>
+                        <outlet property="FlameOutView" destination="G6W-FJ-mRL" id="HcQ-dK-nPp"/>
+                        <outlet property="sceneView" destination="mrc-p1-58c" id="EPM-rf-rxG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvL-3L-z4V" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="75.669642857142847"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="VBD-u5-KEO">
+            <objects>
+                <viewController storyboardIdentifier="toThirdVC" id="5uS-s1-4eW" customClass="ThirdViewController" customModule="Outlook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="NextView" id="s7l-a0-fkr" customClass="ViewController2" customModule="Outlook" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOy-rP-Y5h" customClass="TestButton">
+                                <rect key="frame" x="60" y="306" width="296" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="omitosu.png" title=""/>
+                                <connections>
+                                    <action selector="toFurthVC:" destination="5uS-s1-4eW" eventType="touchUpInside" id="nAW-rX-Lhn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VI0-7p-h4C"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="TestButton" destination="LOy-rP-Y5h" id="ksE-N4-b3q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xDS-HH-ANq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2071.0144927536235" y="75.669642857142847"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="RNR-wS-6mW">
+            <objects>
+                <viewController storyboardIdentifier="toFourthVC" id="iG4-QZ-WVa" customClass="FourthViewController" customModule="Outlook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="toFourthVC" id="QHK-wd-pE7" customClass="FourthViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="cSV-6e-HYt"/>
+                        <color key="backgroundColor" red="0.90980392160000001" green="0.2274509804" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mp4-QO-mti" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3142" y="76"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Flame_in.png" width="232" height="444"/>
+        <image name="Flame_out.png" width="286" height="502"/>
+        <image name="REDWAVE.png" width="475" height="170"/>
+        <image name="omitosu.png" width="272" height="272"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
