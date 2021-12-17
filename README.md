@@ -18,7 +18,12 @@
 - 利用したフレームワーク・ライブラリ
   ARKit
 - その他開発に使用したツール
-  miro,slack,discord
+  miro,slack,Discord,Github,Xcode,FLStudio,
+  Adobe(XD,Photoshop,AfterEffect,Illustlater),
+  ClipStudio,keynote
+  CanonEOSkiss10
+- 小道具
+  みかん、門松、おもち      
 ## 役割分担
 - 古町昂大：デザイン
 - 佐々木翔太：iOS
